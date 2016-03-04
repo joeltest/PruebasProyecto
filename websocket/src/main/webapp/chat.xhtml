@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <body>
+
+        <ui:composition template="./template.xhtml">
+
+            <ui:define name="top">
+                top
+            </ui:define>
+
+            <ui:define name="center">
+                <h:form id="form">
+                    <div style="padding: 30px 30px 30px 30px;">
+                        <h:inputText id="mensajeTexto" style="width: 120px;height: 30px;" />
+                        <br/>
+                        <h:commandLink value="Enviar " onclick="enviarMensaje()" >                        
+                            <f:ajax render="@none" execute="@none"/>
+                        </h:commandLink>
+                        <br/>
+                        <!--<h:inputTextarea id="output" cols="50" rows="10" />-->
+                        <!--<h:outputLabel id="output" escape="true"/>-->
+                    </div>
+                </h:form>
+                <div id="output"/>
+            </ui:define>
+
+            <ui:define name="footer">
+                footer
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

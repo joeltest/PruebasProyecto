@@ -1,0 +1,10 @@
+/home/ihsa/Documentos/pruebasProyectos/websocket/src/main/java/org/sample/chat/Command.java
+/home/ihsa/Documentos/pruebasProyectos/websocket/src/main/java/org/sample/whiteboardapp/Coordinates.java
+/home/ihsa/Documentos/pruebasProyectos/websocket/src/main/java/org/sample/chat/MensajeText.java
+/home/ihsa/Documentos/pruebasProyectos/websocket/src/main/java/org/sample/whiteboardapp/MyWhiteboard.java
+/home/ihsa/Documentos/pruebasProyectos/websocket/src/main/java/org/sample/chat/CommandDecoder.java
+/home/ihsa/Documentos/pruebasProyectos/websocket/src/main/java/org/sample/chat/WebSocketCommand.java
+/home/ihsa/Documentos/pruebasProyectos/websocket/src/main/java/org/sample/whiteboardapp/FigureDecoder.java
+/home/ihsa/Documentos/pruebasProyectos/websocket/src/main/java/org/sample/whiteboardapp/Figure.java
+/home/ihsa/Documentos/pruebasProyectos/websocket/src/main/java/org/sample/chat/CommandEncoder.java
+/home/ihsa/Documentos/pruebasProyectos/websocket/src/main/java/org/sample/whiteboardapp/FigureEncoder.java

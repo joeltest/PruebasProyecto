@@ -1,0 +1,10 @@
+org/sample/whiteboardapp/Coordinates.class
+org/sample/chat/CommandDecoder.class
+org/sample/whiteboardapp/Figure.class
+org/sample/whiteboardapp/FigureEncoder.class
+org/sample/chat/Command.class
+org/sample/chat/CommandEncoder.class
+org/sample/whiteboardapp/FigureDecoder.class
+org/sample/whiteboardapp/MyWhiteboard.class
+org/sample/chat/MensajeText.class
+org/sample/chat/WebSocketCommand.class
